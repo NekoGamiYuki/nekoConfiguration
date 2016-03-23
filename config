@@ -37,7 +37,7 @@ bindsym $mod+Shift+q kill
 
 # Screenshots: Places all screenshots from the year 2000 into Screenshots folder
 #--------------------------------------------------------------------------------
-bindsym Print exec scrot -e 'mv ~/20* ~/Pictures/Screenshots'
+bindsym Print exec scrot -e 'mv ~/20* ~/PathToScreenShotsFolder'
 #--------------------------------------------------------------------------------
 
 
@@ -245,7 +245,7 @@ bar {
 #--------------------------------------------------------------------------------
 
 # Set wallpaper
-exec_always feh --bg-fill ~/Pictures/Wallpapers/dvqHS09.jpg
+exec_always feh --bg-fill <PATHTOYOURWALLPAPERHERE>
 
 # Compton compositor: Shadows, Fade of windows (3 milliseconds)
 exec_always compton -c -f -D 3 --vsync drm
